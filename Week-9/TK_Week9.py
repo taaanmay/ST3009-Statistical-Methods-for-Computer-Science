@@ -16,7 +16,7 @@ def func_gradient_descent(theeta_0, dfx, learning_rate, no_iterations) :
 fx = lambda x : (x*x) - 1		# x^2 - 1
 dfx = lambda x : 2*x			# 2x
 theeta_0 = uniform(-1,1)		# theetha_0 selected randomly b/w -1,1
-no_iterations = 200				# Number of iterations = 200
+no_iterations = 100				# Number of iterations = 100
 
 
 
@@ -29,6 +29,10 @@ for learning_rate in [1.0, 0.1, 0.01]:
 	plt.ylabel('f(x)')
 	plt.xlabel('value')
 	plt.show()
+
+
+
+	
 
 	 
 
